@@ -1,9 +1,10 @@
 import UI from 'sketch/ui';
-import {fromSJSONDictionary} from 'sketchapp-json-plugin';
-import {fixTextLayer, fixSharedTextStyle} from './helpers/fixFont';
+import { fromSJSONDictionary } from 'sketchapp-json-plugin';
+import { fixTextLayer, fixSharedTextStyle } from './helpers/fixFont';
 import fixImageFill from './helpers/fixImageFill';
 import fixSVGLayer from './helpers/fixSVG';
 import zoomToFit from './helpers/zoomToFit';
+import jsonData from '../dist-sketchapp/page.asketch.json';
 
 function removeExistingLayers(context) {
   if (context.containsLayers()) {
@@ -95,42 +96,42 @@ export default function asketch2sketch(context) {
   let asketchDocument = null;
   let asketchPage = null;
 
-  const panel = NSOpenPanel.openPanel();
+  // const panel = NSOpenPanel.openPanel();
+  //
+  // panel.setCanChooseDirectories(false);
+  // panel.setCanChooseFiles(true);
+  // panel.setAllowsMultipleSelection(true);
+  // panel.setTitle('Choose *.asketch.json files');
+  // panel.setPrompt('Choose');
+  // panel.setAllowedFileTypes(['json']);
 
-  panel.setCanChooseDirectories(false);
-  panel.setCanChooseFiles(true);
-  panel.setAllowsMultipleSelection(true);
-  panel.setTitle('Choose *.asketch.json files');
-  panel.setPrompt('Choose');
-  panel.setAllowedFileTypes(['json']);
+  // if (panel.runModal() !== NSModalResponseOK || panel.URLs().length === 0) {
+  //   return;
+  // }
 
-  if (panel.runModal() !== NSModalResponseOK || panel.URLs().length === 0) {
-    return;
+  // const urls = panel.URLs();
+
+  // urls.forEach(url => {
+  //   const data = NSData.dataWithContentsOfURL(url);
+  //   const content = NSString.alloc().initWithData_encoding_(data, NSUTF8StringEncoding);
+  //
+  let asketchFile = null;
+
+  try {
+    asketchFile = jsonData;
+  } catch (e) {
+    const alert = NSAlert.alloc().init();
+
+    alert.setMessageText('File is not a valid JSON.');
+    alert.runModal();
   }
 
-  const urls = panel.URLs();
-
-  urls.forEach(url => {
-    const data = NSData.dataWithContentsOfURL(url);
-    const content = NSString.alloc().initWithData_encoding_(data, NSUTF8StringEncoding);
-
-    let asketchFile = null;
-
-    try {
-      asketchFile = JSON.parse(content);
-    } catch (e) {
-      const alert = NSAlert.alloc().init();
-
-      alert.setMessageText('File is not a valid JSON.');
-      alert.runModal();
-    }
-
-    if (asketchFile && asketchFile._class === 'document') {
-      asketchDocument = asketchFile;
-    } else if (asketchFile && asketchFile._class === 'page') {
-      asketchPage = asketchFile;
-    }
-  });
+  if (asketchFile && asketchFile._class === 'document') {
+    asketchDocument = asketchFile;
+  } else if (asketchFile && asketchFile._class === 'page') {
+    asketchPage = asketchFile;
+  }
+  // });
 
   if (asketchDocument) {
     removeSharedColors(document);

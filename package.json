@@ -18,6 +18,8 @@
     "build": "npm run build-lib && npm run build-plugin",
     "build-lib": "babel html2asketch --out-dir build/html2asketch -D",
     "build-plugin": "skpm-build",
+    "watch-index": "nodemon -e html -x \"npm run build-sketch\"",
+    "build-sketch": "html-sketchapp --viewports.Desktop 1024x768 --file pages/buttons.html --out-dir dist-sketchapp && npm run watch-plugin",
     "watch": "concurrently \"npm run watch-lib\" \"npm run watch-plugin\"",
     "watch-lib": "npm run build-lib -- --watch",
     "watch-plugin": "npm run build-plugin -- --watch --run",
