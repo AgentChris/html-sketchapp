@@ -16,7 +16,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npm run build-lib && npm run build-plugin",
-    "replace-font": "nodemon tweak.js",
+    "replace-font": "node tweak.js",
     "build-lib": "babel html2asketch --out-dir build/html2asketch -D",
     "build-plugin": "skpm-build",
     "watch-index": "nodemon -e html -x \"npm run build-sketch\"",
