@@ -6,6 +6,8 @@ import fixSVGLayer from './helpers/fixSVG';
 import zoomToFit from './helpers/zoomToFit';
 import jsonData from '../dist-sketchapp/page.asketch.json';
 
+const fetch = require('sketch-polyfill-fetch')
+
 function removeExistingLayers(context) {
   if (context.containsLayers()) {
     const loop = context.children().objectEnumerator();
@@ -115,65 +117,73 @@ export default function asketch2sketch(context) {
   //   const data = NSData.dataWithContentsOfURL(url);
   //   const content = NSString.alloc().initWithData_encoding_(data, NSUTF8StringEncoding);
   //
-  let asketchFile = null;
 
-  try {
-    asketchFile = jsonData;
-  } catch (e) {
-    const alert = NSAlert.alloc().init();
+  fetch("https://google.com")
+    .then(function (response) {
+      console.log(response);
+      let asketchFile = null;
 
-    alert.setMessageText('File is not a valid JSON.');
-    alert.runModal();
-  }
+      try {
+        asketchFile = jsonData;
+      } catch (e) {
+        const alert = NSAlert.alloc().init();
 
-  if (asketchFile && asketchFile._class === 'document') {
-    asketchDocument = asketchFile;
-  } else if (asketchFile && asketchFile._class === 'page') {
-    asketchPage = asketchFile;
-  }
-  // });
+        alert.setMessageText('File is not a valid JSON.');
+        alert.runModal();
+      }
 
-  if (asketchDocument) {
-    removeSharedColors(document);
-    removeSharedTextStyles(document);
+      if (asketchFile && asketchFile._class === 'document') {
+        asketchDocument = asketchFile;
+      } else if (asketchFile && asketchFile._class === 'page') {
+        asketchPage = asketchFile;
+      }
+      // });
 
-    if (asketchDocument.assets.colors) {
-      asketchDocument.assets.colors.forEach(color => addSharedColor(document, color));
+      if (asketchDocument) {
+        removeSharedColors(document);
+        removeSharedTextStyles(document);
 
-      console.log('Shared colors added: ' + asketchDocument.assets.colors.length);
-    }
+        if (asketchDocument.assets.colors) {
+          asketchDocument.assets.colors.forEach(color => addSharedColor(document, color));
 
-    if (asketchDocument.layerTextStyles && asketchDocument.layerTextStyles.objects) {
-      asketchDocument.layerTextStyles.objects.forEach(style => {
-        fixSharedTextStyle(style);
-        addSharedTextStyle(document, style);
-      });
+          console.log('Shared colors added: ' + asketchDocument.assets.colors.length);
+        }
 
-      console.log('Shared text styles added: ' + asketchDocument.layerTextStyles.objects.length);
-    }
-  }
+        if (asketchDocument.layerTextStyles && asketchDocument.layerTextStyles.objects) {
+          asketchDocument.layerTextStyles.objects.forEach(style => {
+            fixSharedTextStyle(style);
+            addSharedTextStyle(document, style);
+          });
 
-  if (asketchPage) {
-    removeExistingLayers(page);
+          console.log('Shared text styles added: ' + asketchDocument.layerTextStyles.objects.length);
+        }
+      }
 
-    page.name = asketchPage.name;
+      if (asketchPage) {
+        removeExistingLayers(page);
 
-    const failingLayers = [];
+        page.name = asketchPage.name;
 
-    asketchPage.layers
-      .map(getNativeLayer.bind(null, failingLayers))
-      .forEach(layer => layer && page.addLayer(layer));
+        const failingLayers = [];
 
-    if (failingLayers.length === 1) {
-      UI.alert('asketch2sketch', 'One layer couldn\'t be imported and was skipped.');
-    } else if (failingLayers.length > 1) {
-      UI.alert('asketch2sketch', `${failingLayers.length} layers couldn't be imported and were skipped.`);
-    } else {
-      const emojis = ['👌', '👍', '✨', '😍', '🍾', '🤩', '🎉', '👏', '💪', '🤘', '💅', '🏆', '🚀'];
+        asketchPage.layers
+          .map(getNativeLayer.bind(null, failingLayers))
+          .forEach(layer => layer && page.addLayer(layer));
 
-      UI.message(`Import successful ${emojis[Math.floor(emojis.length * Math.random())]}`);
-    }
+        if (failingLayers.length === 1) {
+          UI.alert('asketch2sketch', 'One layer couldn\'t be imported and was skipped.');
+        } else if (failingLayers.length > 1) {
+          UI.alert('asketch2sketch', `${failingLayers.length} layers couldn't be imported and were skipped.`);
+        } else {
+          const emojis = ['👌', '👍', '✨', '😍', '🍾', '🤩', '🎉', '👏', '💪', '🤘', '💅', '🏆', '🚀'];
 
-    zoomToFit(context);
-  }
+          UI.message(`Import successful ${emojis[Math.floor(emojis.length * Math.random())]}`);
+        }
+
+        zoomToFit(context);
+      }
+    })
+    .catch(function (e) {
+      console.log(e);
+    });
 }
