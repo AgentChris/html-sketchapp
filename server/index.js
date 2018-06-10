@@ -1,4 +1,3 @@
-const fs = require('fs');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -20,9 +19,11 @@ app.get('/', function (req, res) {
 
 // get sketch json
 router.get('/sketch-json', function(req, res) {
-  const fileName = '../dist-sketchapp/page.asketch.json';
+  const fs = require('fs');
+  var path = require('path');
+  const fileName = '/dist-sketchapp/page.asketch.json';
 
-  let file = require(fileName);
+  let file = fs.readFileSync(path.join(__dirname, fileName), 'utf8');
   const json_string = utils.transformSketchMiddlware(file);
 
   fs.writeFile(fileName, json_string, function (err) {

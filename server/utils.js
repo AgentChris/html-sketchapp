@@ -17,10 +17,9 @@ function runSketchCommand() {
 
 module.exports.runSketchCommand = runSketchCommand;
 
-function transformSketchMiddlware(json) {
+function transformSketchMiddlware(jsonString) {
   // replace font
-  let old_json_string = JSON.stringify(json);
-  return old_json_string.replace(/GeographWeb/g, 'Geograph');
+  return jsonString.replace(/GeographWeb/g, 'Geograph');
 }
 
 module.exports.transformSketchMiddlware = transformSketchMiddlware;
