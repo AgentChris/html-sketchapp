@@ -1,3 +1,4 @@
+const fs = require('fs');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -19,7 +20,6 @@ app.get('/', function (req, res) {
 
 // get sketch json
 router.get('/sketch-json', function(req, res) {
-  const fs = require('fs');
   const fileName = '../dist-sketchapp/page.asketch.json';
 
   let file = require(fileName);
@@ -39,7 +39,10 @@ app.listen(3000, function () {
 // socket server
 
 io.on('connection', function (socket) {
-  console.log('a user connected');
+  console.log('sketch client connected');
+  socket.on('update sketch', function(msg){
+    console.log('message: ' + msg);
+  });
 });
 
 http.listen(3001, function () {
