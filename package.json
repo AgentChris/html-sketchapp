@@ -62,12 +62,15 @@
     "main": "build/asketch2sketch.sketchplugin"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.15.2",
     "murmur2js": "^1.0.0",
     "node": "^10.4.0",
     "normalize-css-color": "^1.0.2",
     "sketch-constants": "^1.1.0",
     "sketch-polyfill-fetch": "^0.3.3",
-    "sketchapp-json-plugin": "^0.1.2"
+    "sketchapp-json-plugin": "^0.1.2",
+    "socket.io": "^2.1.1"
   },
   "main": "build/html2asketch/index",
   "typings": "typings/",
