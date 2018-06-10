@@ -17,7 +17,8 @@
   "scripts": {
     "build": "npm run build-lib && npm run build-plugin",
     "replace-font": "node tweak.js",
-    "start": "nodemon tweak.js",
+    "start": "node tweak.js",
+    "optim": "npm run watch-index && npm start",
     "build-lib": "babel html2asketch --out-dir build/html2asketch -D",
     "build-plugin": "skpm-build",
     "watch-index": "nodemon -e html -x \"npm run build-sketch\"",

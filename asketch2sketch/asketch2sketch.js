@@ -4,9 +4,9 @@ import { fixTextLayer, fixSharedTextStyle } from './helpers/fixFont';
 import fixImageFill from './helpers/fixImageFill';
 import fixSVGLayer from './helpers/fixSVG';
 import zoomToFit from './helpers/zoomToFit';
-import jsonData from '../dist-sketchapp/page.asketch.json';
 
-const fetch = require('sketch-polyfill-fetch')
+const fetch = require('sketch-polyfill-fetch');
+const URL_SKETCH_JSON = 'http://localhost:3000/api/sketch-json';
 
 function removeExistingLayers(context) {
   if (context.containsLayers()) {
@@ -118,9 +118,11 @@ export default function asketch2sketch(context) {
   //   const content = NSString.alloc().initWithData_encoding_(data, NSUTF8StringEncoding);
   //
 
-  fetch("https://google.com")
+  fetch(URL_SKETCH_JSON)
     .then(function (response) {
-      console.log(response);
+      var res = response.json();
+
+      var jsonData  = res['_value'];
       let asketchFile = null;
 
       try {
@@ -137,7 +139,6 @@ export default function asketch2sketch(context) {
       } else if (asketchFile && asketchFile._class === 'page') {
         asketchPage = asketchFile;
       }
-      // });
 
       if (asketchDocument) {
         removeSharedColors(document);
