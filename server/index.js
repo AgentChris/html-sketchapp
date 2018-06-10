@@ -42,6 +42,8 @@ io.on('connection', function (socket) {
   console.log('sketch client connected');
   socket.on('update sketch', function(msg){
     console.log('message: ' + msg);
+    utils.runSketchCommand();
+    console.log("command done");
   });
 });
 
