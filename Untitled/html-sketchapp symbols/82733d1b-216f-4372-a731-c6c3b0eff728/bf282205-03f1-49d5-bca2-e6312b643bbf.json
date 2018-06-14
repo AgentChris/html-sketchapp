@@ -1,0 +1,49 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHwcIDxAkJSYnKCkqKy83ODk6O0JGR0hUVVZXWFpkaGlVJG51bGzTCQoLDA0OWE5TU3RyaW5nViRjbGFzc1xOU0F0dHJpYnV0ZXOAAoAegANZUHJvbW90aW5n0xESChMbI1dOUy5rZXlzWk5TLm9iamVjdHOnFBUWFxgZGoAEgAWABoAHgAiACYAKpxwdHR8gISKAC4ATgBOAFIAVgBuAHYAaXxAfTVNBdHRyaWJ1dGVkU3RyaW5nRm9udEF0dHJpYnV0ZV8QD05TU3RyaWtldGhyb3VnaFtOU1VuZGVybGluZV8QKE1TQXR0cmlidXRlZFN0cmluZ1RleHRUcmFuc2Zvcm1BdHRyaWJ1dGVfECpNU0F0dHJpYnV0ZWRTdHJpbmdDb2xvckRpY3Rpb25hcnlBdHRyaWJ1dGVfEBBOU1BhcmFncmFwaFN0eWxlVk5TS2VybtIKLC0uXxAaTlNGb250RGVzY3JpcHRvckF0dHJpYnV0ZXOAEoAM0xESCjAzNqIxMoANgA6iNDWAD4AQgBFfEBNOU0ZvbnRTaXplQXR0cmlidXRlXxATTlNGb250TmFtZUF0dHJpYnV0ZSNALAAAAAAAAF8QD0dlb2dyYXBoLU1lZGl1bdI8PT4/WiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oz5AQVxOU0RpY3Rpb25hcnlYTlNPYmplY3TSPD1DRF8QEE5TRm9udERlc2NyaXB0b3KiRUFfEBBOU0ZvbnREZXNjcmlwdG9yIwAAAAAAAAAAIz/wAAAAAAAA0xESCklOI6RKS0xNgBaAF4AYgBmkHR8dHYATgBSAE4ATgBpTcmVkVWFscGhhVGJsdWVVZ3JlZW7SPD1AWaJAQdZbXF0KXl9HYGFiY2FfEBROU0xpbmVIZWlnaHRNdWx0aXBsZVpOU1RhYlN0b3BzXxAPTlNNaW5MaW5lSGVpZ2h0XxAfTlNBbGxvd3NUaWdodGVuaW5nRm9yVHJ1bmNhdGlvbl8QD05TTWF4TGluZUhlaWdodIAAI0A5AAAAAAAAgBwQAdI8PWVmXxAXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGWjZWdBXxAQTlNQYXJhZ3JhcGhTdHlsZSNAAMzMzMzMzdI8PWprXxASTlNBdHRyaWJ1dGVkU3RyaW5nomxBXxASTlNBdHRyaWJ1dGVkU3RyaW5nXxAPTlNLZXllZEFyY2hpdmVy0W9wVHJvb3SAAQAIABEAGgAjAC0AMgA3AFkAXwBmAG8AdgCDAIUAhwCJAJMAmgCiAK0AtQC3ALkAuwC9AL8AwQDDAMsAzQDPANEA0wDVANcA2QDbAP0BDwEbAUYBcwGGAY0BkgGvAbEBswG6Ab0BvwHBAcQBxgHIAcoB4AH2Af8CEQIWAiECKgJAAkQCUQJaAl8CcgJ1AogCkQKaAqECpgKoAqoCrAKuArMCtQK3ArkCuwK9AsECxwLMAtIC1wLaAucC/gMJAxsDPQNPA1EDWgNcA14DYwN9A4EDlAOdA6IDtwO6A88D4QPkA+kAAAAAAAACAQAAAAAAAABxAAAAAAAAAAAAAAAAAAAD6w=="
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "bf282205-03f1-49d5-bca2-e6312b643bbf",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 25,
+    "width": 107,
+    "x": 66.015625,
+    "y": 70.5
+  },
+  "glyphBounds": "{{0, 0}, {0, 0}}",
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Promoting",
+  "nameIsFixed": false,
+  "resizingConstraint": 47,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "textBehaviour": 0
+}

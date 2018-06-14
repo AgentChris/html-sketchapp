@@ -1,0 +1,49 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGaWpYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHQcIDxAiIyQlJicoNDU2Nzg5OkBETE1OT1BTV2FlVSRudWxs0wkKCwwNDlhOU1N0cmluZ1YkY2xhc3NcTlNBdHRyaWJ1dGVzgAKAHIADW0xvcmVtIElwc3Vt0xESChMaIVdOUy5rZXlzWk5TLm9iamVjdHOmFBUWFxgZgASABYAGgAeACIAJphscHRwcIIAKgA+AEoAPgA+AGoARXxAqTVNBdHRyaWJ1dGVkU3RyaW5nQ29sb3JEaWN0aW9uYXJ5QXR0cmlidXRlXxAPTlNTdHJpa2V0aHJvdWdoXxAfTVNBdHRyaWJ1dGVkU3RyaW5nRm9udEF0dHJpYnV0ZV8QKE1TQXR0cmlidXRlZFN0cmluZ1RleHRUcmFuc2Zvcm1BdHRyaWJ1dGVbTlNVbmRlcmxpbmVfEBBOU1BhcmFncmFwaFN0eWxl0xESCikuIaQqKywtgAuADIANgA6kHDAcHIAPgBCAD4APgBFTcmVkVWFscGhhVGJsdWVVZ3JlZW4jAAAAAAAAAAAjP/AAAAAAAADSOzw9PlokY2xhc3NuYW1lWCRjbGFzc2VzXE5TRGljdGlvbmFyeaI9P1hOU09iamVjdNIKQUJDXxAaTlNGb250RGVzY3JpcHRvckF0dHJpYnV0ZXOAGYAT0xESCkVIS6JGR4AUgBWiSUqAFoAXgBhfEBhOU0NURm9udFVJVXNhZ2VBdHRyaWJ1dGVfEBNOU0ZvbnRTaXplQXR0cmlidXRlXxASQ1RGb250UmVndWxhclVzYWdlI0AwAAAAAAAA0js8UVJfEBNOU011dGFibGVEaWN0aW9uYXJ5o1E9P9I7PFRVXxAQTlNGb250RGVzY3JpcHRvcqJWP18QEE5TRm9udERlc2NyaXB0b3LWWFlaCltcOV1eX2BeXxAUTlNMaW5lSGVpZ2h0TXVsdGlwbGVaTlNUYWJTdG9wc18QD05TTWluTGluZUhlaWdodF8QH05TQWxsb3dzVGlnaHRlbmluZ0ZvclRydW5jYXRpb25fEA9OU01heExpbmVIZWlnaHSAACNAOwAAAAAAAIAbEAHSOzxiY18QF05TTXV0YWJsZVBhcmFncmFwaFN0eWxlo2JkP18QEE5TUGFyYWdyYXBoU3R5bGXSOzxmZ18QEk5TQXR0cmlidXRlZFN0cmluZ6JoP18QEk5TQXR0cmlidXRlZFN0cmluZ18QD05TS2V5ZWRBcmNoaXZlctFrbFRyb290gAEACAARABoAIwAtADIANwBXAF0AZABtAHQAgQCDAIUAhwCTAJoAogCtALQAtgC4ALoAvAC+AMAAxwDJAMsAzQDPANEA0wDVAQIBFAE2AWEBbQGAAYcBjAGOAZABkgGUAZkBmwGdAZ8BoQGjAacBrQGyAbgBwQHKAc8B2gHjAfAB8wH8AgECHgIgAiICKQIsAi4CMAIzAjUCNwI5AlQCagJ/AogCjQKjAqcCrAK/AsIC1QLiAvkDBAMWAzgDSgNMA1UDVwNZA14DeAN8A48DlAOpA6wDwQPTA9YD2wAAAAAAAAIBAAAAAAAAAG0AAAAAAAAAAAAAAAAAAAPd"
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "576bbc88-64ec-4659-a5f0-19a34e7586de",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 18,
+    "width": 94.15625,
+    "x": 40.015625,
+    "y": 213.5
+  },
+  "glyphBounds": "{{0, 0}, {0, 0}}",
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Lorem Ipsum",
+  "nameIsFixed": false,
+  "resizingConstraint": 47,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "textBehaviour": 0
+}

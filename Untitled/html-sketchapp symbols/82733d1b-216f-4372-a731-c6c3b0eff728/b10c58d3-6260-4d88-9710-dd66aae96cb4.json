@@ -1,0 +1,49 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHwcIDxAkJSYnKCkqKy83ODk6O0JGR0hUVVZXWFpkaGlVJG51bGzTCQoLDA0OWE5TU3RyaW5nViRjbGFzc1xOU0F0dHJpYnV0ZXOAAoAegANbUHJvbW8gUGFuZWzTERIKExsjV05TLmtleXNaTlMub2JqZWN0c6cUFRYXGBkagASABYAGgAeACIAJgAqnHB0dHyAhIoALgBOAE4AUgBWAG4AdgBpfEB9NU0F0dHJpYnV0ZWRTdHJpbmdGb250QXR0cmlidXRlXxAPTlNTdHJpa2V0aHJvdWdoW05TVW5kZXJsaW5lXxAoTVNBdHRyaWJ1dGVkU3RyaW5nVGV4dFRyYW5zZm9ybUF0dHJpYnV0ZV8QKk1TQXR0cmlidXRlZFN0cmluZ0NvbG9yRGljdGlvbmFyeUF0dHJpYnV0ZV8QEE5TUGFyYWdyYXBoU3R5bGVWTlNLZXJu0gosLS5fEBpOU0ZvbnREZXNjcmlwdG9yQXR0cmlidXRlc4ASgAzTERIKMDM2ojEygA2ADqI0NYAPgBCAEV8QE05TRm9udFNpemVBdHRyaWJ1dGVfEBNOU0ZvbnROYW1lQXR0cmlidXRlI0A8AAAAAAAAXxAPR2VvZ3JhcGgtTWVkaXVt0jw9Pj9aJGNsYXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0YWJsZURpY3Rpb25hcnmjPkBBXE5TRGljdGlvbmFyeVhOU09iamVjdNI8PUNEXxAQTlNGb250RGVzY3JpcHRvcqJFQV8QEE5TRm9udERlc2NyaXB0b3IjAAAAAAAAAAAjP/AAAAAAAADTERIKSU4jpEpLTE2AFoAXgBiAGaQdHx0dgBOAFIATgBOAGlNyZWRVYWxwaGFUYmx1ZVVncmVlbtI8PUBZokBB1ltcXQpeX0dgYWJjYV8QFE5TTGluZUhlaWdodE11bHRpcGxlWk5TVGFiU3RvcHNfEA9OU01pbkxpbmVIZWlnaHRfEB9OU0FsbG93c1RpZ2h0ZW5pbmdGb3JUcnVuY2F0aW9uXxAPTlNNYXhMaW5lSGVpZ2h0gAAjQEUAAAAAAACAHBAB0jw9ZWZfEBdOU011dGFibGVQYXJhZ3JhcGhTdHlsZaNlZ0FfEBBOU1BhcmFncmFwaFN0eWxlI0ANHrhR64Uf0jw9amtfEBJOU0F0dHJpYnV0ZWRTdHJpbmeibEFfEBJOU0F0dHJpYnV0ZWRTdHJpbmdfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAWQBfAGYAbwB2AIMAhQCHAIkAlQCcAKQArwC3ALkAuwC9AL8AwQDDAMUAzQDPANEA0wDVANcA2QDbAN0A/wERAR0BSAF1AYgBjwGUAbEBswG1AbwBvwHBAcMBxgHIAcoBzAHiAfgCAQITAhgCIwIsAkICRgJTAlwCYQJ0AncCigKTApwCowKoAqoCrAKuArACtQK3ArkCuwK9Ar8CwwLJAs4C1ALZAtwC6QMAAwsDHQM/A1EDUwNcA14DYANlA38DgwOWA58DpAO5A7wD0QPjA+YD6wAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAAPt"
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "b10c58d3-6260-4d88-9710-dd66aae96cb4",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 32,
+    "width": 244.75,
+    "x": 40.015625,
+    "y": 147
+  },
+  "glyphBounds": "{{0, 0}, {0, 0}}",
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Promo Panel",
+  "nameIsFixed": false,
+  "resizingConstraint": 47,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "textBehaviour": 0
+}

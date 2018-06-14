@@ -1,0 +1,49 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGb3BYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QHwcIDxAkJSYnKCkqKy83ODk6O0JGR0hUVVZXWFpmamtVJG51bGzTCQoLDA0OWE5TU3RyaW5nViRjbGFzc1xOU0F0dHJpYnV0ZXOAAoAegANeQ2FsbCBUbyBBY3Rpb27TERIKExsjV05TLmtleXNaTlMub2JqZWN0c6cUFRYXGBkagASABYAGgAeACIAJgAqnHB0dHyAhIoALgBOAE4AUgBWAG4AdgBpfEB9NU0F0dHJpYnV0ZWRTdHJpbmdGb250QXR0cmlidXRlXxAPTlNTdHJpa2V0aHJvdWdoW05TVW5kZXJsaW5lXxAoTVNBdHRyaWJ1dGVkU3RyaW5nVGV4dFRyYW5zZm9ybUF0dHJpYnV0ZV8QKk1TQXR0cmlidXRlZFN0cmluZ0NvbG9yRGljdGlvbmFyeUF0dHJpYnV0ZV8QEE5TUGFyYWdyYXBoU3R5bGVWTlNLZXJu0gosLS5fEBpOU0ZvbnREZXNjcmlwdG9yQXR0cmlidXRlc4ASgAzTERIKMDM2ojEygA2ADqI0NYAPgBCAEV8QE05TRm9udFNpemVBdHRyaWJ1dGVfEBNOU0ZvbnROYW1lQXR0cmlidXRlI0AoAAAAAAAAXxAPR2VvZ3JhcGgtTWVkaXVt0jw9Pj9aJGNsYXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0YWJsZURpY3Rpb25hcnmjPkBBXE5TRGljdGlvbmFyeVhOU09iamVjdNI8PUNEXxAQTlNGb250RGVzY3JpcHRvcqJFQV8QEE5TRm9udERlc2NyaXB0b3IjAAAAAAAAAAAjP/AAAAAAAADTERIKSU4jpEpLTE2AFoAXgBiAGaQfHx8fgBSAFIAUgBSAGlNyZWRVYWxwaGFUYmx1ZVVncmVlbtI8PUBZokBB1wpbXF1eX2BhYkdjZGRlWk5TVGFiU3RvcHNfEBROU0xpbmVIZWlnaHRNdWx0aXBsZV8QH05TQWxsb3dzVGlnaHRlbmluZ0ZvclRydW5jYXRpb25fEA9OU01heExpbmVIZWlnaHRfEA9OU01pbkxpbmVIZWlnaHRbTlNBbGlnbm1lbnSAHIAAEAEjQEgAAAAAAAAQAtI8PWdoXxAXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGWjZ2lBXxAQTlNQYXJhZ3JhcGhTdHlsZSM//MzMzMzMzdI8PWxtXxASTlNBdHRyaWJ1dGVkU3RyaW5nom5BXxASTlNBdHRyaWJ1dGVkU3RyaW5nXxAPTlNLZXllZEFyY2hpdmVy0XFyVHJvb3SAAQAIABEAGgAjAC0AMgA3AFkAXwBmAG8AdgCDAIUAhwCJAJgAnwCnALIAugC8AL4AwADCAMQAxgDIANAA0gDUANYA2ADaANwA3gDgAQIBFAEgAUsBeAGLAZIBlwG0AbYBuAG/AcIBxAHGAckBywHNAc8B5QH7AgQCFgIbAiYCLwJFAkkCVgJfAmQCdwJ6Ao0ClgKfAqYCqwKtAq8CsQKzArgCugK8Ar4CwALCAsYCzALRAtcC3ALfAu4C+QMQAzIDRANWA2IDZANmA2gDcQNzA3gDkgOWA6kDsgO3A8wDzwPkA/YD+QP+AAAAAAAAAgEAAAAAAAAAcwAAAAAAAAAAAAAAAAAABAA="
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "39e66468-0499-4caa-bb9c-2e811c63cd48",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 14,
+    "width": 128.9375,
+    "x": 238.875,
+    "y": 292
+  },
+  "glyphBounds": "{{0, 0}, {0, 0}}",
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Call To Action",
+  "nameIsFixed": false,
+  "resizingConstraint": 47,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "textBehaviour": 0
+}
