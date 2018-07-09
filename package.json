@@ -30,6 +30,7 @@
     "lint-fix": "npm run lint -- --fix",
     "e2e": "cd e2e && webpack --config ./webpack.config.js && node ./run.js",
     "prepare": "npm run build && npm run test",
+    "deploy": "cp -a pages/. docs",
     "tslint": "tslint -c tslint.json typings/*.d.ts typings/**/*.d.ts"
   },
   "engines": {
