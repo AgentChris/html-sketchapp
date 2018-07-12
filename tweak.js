@@ -5,7 +5,8 @@ var file = require(fileName);
 // file.key = "new value";
 let old_json_string = JSON.stringify(file);
 // console.log(old_json_string);
-const new_string = old_json_string.replace(/GeographWeb/g, 'Geograph');
+let new_string = old_json_string.replace(/GeographWeb/g, 'Geograph');
+new_string = new_string.replace(/GeographEditWeb/g, 'GeographEdit');
 // console.log(old_json_string);
 console.log(new_string);
 
